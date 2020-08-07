@@ -1,6 +1,9 @@
+:warning: *NOTE: This tool is no longer under active maintenance.*
+
 JBoss Autopwn Script
 Christian G. Papathanasiou
 http://www.spiderlabs.com
+
 
 INTRODUCTION
 ============
